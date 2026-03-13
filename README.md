@@ -10,11 +10,9 @@ This repository contains a **Node/Express backend**, a **Python AI microservice*
 2. Create a virtual environment and install requirements:
    ```bash
    cd backend/ai_service
-   python -m venv venv
-   .\venv\Scripts\activate       # Windows
-   pip install -r requirements.txt
+  
    ```
-3. Place your trained `facial_expression_model.h5` inside `backend/ai_service/` (or the service will return dummy values).
+3. Place your trained `facial_expression_model.h5` inside `backend/session.controller.js` (or the service will return dummy values).
 4. Launch the service:
    ```bash
    python app.py
